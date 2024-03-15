@@ -11,6 +11,11 @@
 		C14FAB612BA23D7200590E97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FAB602BA23D7200590E97 /* ContentView.swift */; };
 		C14FAB632BA23D7300590E97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C14FAB622BA23D7300590E97 /* Assets.xcassets */; };
 		C14FAB662BA23D7300590E97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C14FAB652BA23D7300590E97 /* Preview Assets.xcassets */; };
+		C14FAB6D2BA246D100590E97 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FAB6C2BA246D100590E97 /* Theme.swift */; };
+		C14FAB6F2BA4C6C300590E97 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FAB6E2BA4C6C300590E97 /* GameController.swift */; };
+		C14FAB732BA501C900590E97 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FAB722BA501C900590E97 /* CardView.swift */; };
+		C14FAB752BA5026C00590E97 /* CardGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FAB742BA5026C00590E97 /* CardGridView.swift */; };
+		C14FAB772BA5030300590E97 /* WinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FAB762BA5030300590E97 /* WinView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		C14FAB602BA23D7200590E97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C14FAB622BA23D7300590E97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C14FAB652BA23D7300590E97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C14FAB6C2BA246D100590E97 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C14FAB6E2BA4C6C300590E97 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		C14FAB722BA501C900590E97 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C14FAB742BA5026C00590E97 /* CardGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGridView.swift; sourceTree = "<group>"; };
+		C14FAB762BA5030300590E97 /* WinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,10 @@
 		C14FAB5D2BA23D7200590E97 /* Memorize Game */ = {
 			isa = PBXGroup;
 			children = (
+				C14FAB702BA501AB00590E97 /* Model */,
 				C14FAB5E2BA23D7200590E97 /* Memorize_GameApp.swift */,
 				C14FAB602BA23D7200590E97 /* ContentView.swift */,
+				C14FAB712BA501B800590E97 /* View */,
 				C14FAB622BA23D7300590E97 /* Assets.xcassets */,
 				C14FAB642BA23D7300590E97 /* Preview Content */,
 			);
@@ -65,6 +77,25 @@
 				C14FAB652BA23D7300590E97 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C14FAB702BA501AB00590E97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C14FAB6C2BA246D100590E97 /* Theme.swift */,
+				C14FAB6E2BA4C6C300590E97 /* GameController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C14FAB712BA501B800590E97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C14FAB722BA501C900590E97 /* CardView.swift */,
+				C14FAB742BA5026C00590E97 /* CardGridView.swift */,
+				C14FAB762BA5030300590E97 /* WinView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14FAB6D2BA246D100590E97 /* Theme.swift in Sources */,
+				C14FAB772BA5030300590E97 /* WinView.swift in Sources */,
+				C14FAB6F2BA4C6C300590E97 /* GameController.swift in Sources */,
+				C14FAB752BA5026C00590E97 /* CardGridView.swift in Sources */,
 				C14FAB612BA23D7200590E97 /* ContentView.swift in Sources */,
 				C14FAB5F2BA23D7200590E97 /* Memorize_GameApp.swift in Sources */,
+				C14FAB732BA501C900590E97 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,6 +12,8 @@ struct Memorize_GameApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(Theme())
+                .environmentObject(GameController())
         }
     }
 }
